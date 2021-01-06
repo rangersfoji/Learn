@@ -1,0 +1,238 @@
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+    word-spacing: 7px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)), url(back.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-menu{
+    float: right; 
+    list-style: none;
+    margin-top: 55px;
+    margin-right: 15px;
+}
+
+.main-menu li{
+    display: inline-block;
+}
+
+.main-menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-menu li.active a {
+    border: 1px white solid;
+}
+
+.main-menu li a:hover {
+    border: 0.5px white solid;
+}
+
+.logo img{
+    float: left;
+    width: 800px;
+    height: auto;
+    margin-top: 20px;
+}
+
+body{
+    font-family: monospace;
+}
+
+.raw{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 0px;
+    width: 1200px;
+    
+}
+
+#sign-div{
+    margin-top: 230px;
+    margin-left: 170px;
+    width: 1200px;
+    text-align: center;
+}
+
+.sign{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    border: 1px white solid;
+    padding: 5px 15px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.sign:hover{
+    background-color: orange;
+    transition: all 0.7ms ease-in;
+}
+
+
+#main_sen{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0px;
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    
+    margin-top: 30px;
+    margin-left: 450px;
+    
+}
+
+.btn{
+    text-align: center;
+    border: 1px white solid;
+    color: white;
+    font-size: 25px;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.btn-one{
+    background-color: orange;
+    font-family: "Roboto",sans-serif;
+}
+
+.btn-two{
+    font-family: "Roboto",sans-serif;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.btn-two:hover{
+    background-color: orange;
+    transition: all 0.7ms ease-in;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+}
+
+.products{
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    margin-top: 60px;
+    background-color: white;
+    margin-left: 80px;
+
+}
+
+
+.top_pro{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 125px;
+    color: white;
+    font-size: 85px;
+    font-family: fantasy;
+    
+}
+
+
+.all_pro{
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    margin-top: 60px;
+    background-color: red;
+    margin-left: 80px;
+
+    background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+    background-size: 300%;
+    animation: banimation 15s infinite;
+}
+
+
+.search-box{
+    margin-top: 45px;
+    float: right;
+    margin-left: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.search-box input{
+    height: 50px;
+    width: 0px;
+    padding: 0px 0px;
+    font-size: 20px;
+    font-family: "Roboto",sans-serif;
+    border-radius: 40px;
+    border: 0px;
+    padding-right: 50px;
+    transition: 0.7s;
+}
+
+.search-box input:focus{
+    width: 400px;
+    padding-left: 20px;
+}
+
+.search-box:before{
+
+    content: "\f002";
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 18px;
+    line-height: 50px;
+    color: grey;
+
+}
+
+
+.anime-div{
+    width: 100%;
+    height: 85px;
+    background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+    background-size: 300%;
+    animation: banimation 15s infinite;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+@keyframes banimation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+

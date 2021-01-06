@@ -1,0 +1,60 @@
+/* Element selector */
+h1{
+    color: red;
+    size: 20px;
+}
+h2{
+    color: green;
+
+}
+p{
+    
+}
+
+/* aakhi body ma sarakho rakhavo hoy to */
+body{
+  color: blueviolet;
+}
+h1,h2{
+    color: brown;
+}
+
+
+/* if you have more than 2 'h1' tag and you want to css specific 'h1' tag than you should use 'id'  */
+#h1_test{
+    color: crimson;
+    background-color: yellow;
+}
+
+
+/*   for id use "#" for class use "."    */
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+#test2{
+    color: greenyellow;
+}
+
+
+/* div and span */
+div{
+    color: red;
+    background: grey;
+}
+span{
+    text-transform: uppercase;
+    background-color: greenyellow;
+}
+.size{
+    font-size: 20px;
+    word-spacing: 10px;
+}
+
+
+/*   '*' is a universal tag and least powerful    */
+*{
+    color: yellow;
+}

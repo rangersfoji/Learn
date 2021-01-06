@@ -1,0 +1,7 @@
+pip install pyqt5
+pip install pyqt5-tools
+
+
+----------------------
+after save file : to convert .ui --> .py
+in that direcotry : pyuic5 -x  file_name.ui -o file_name.py

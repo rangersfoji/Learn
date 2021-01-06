@@ -1,0 +1,177 @@
+import mysql.connector
+
+mydb = mysql.connector.connect(host='localhost',user='root',passwd='password')
+
+print(mydb)
+
+
+---------------------------------------------------
+
+if(mydb):
+	print('connected')
+else:
+	print('not connected')
+
+---------------------------------------------------
+
+import mysql.connector
+
+mydb = mysql.connector.connect(host='localhost',user='root',passwd='password')
+
+mycursor = mydb.cursor()
+
+mycursor.execute("Create databse testdb")
+
+---------------------------------------------------
+
+
+import mysql.connector
+
+mydb = mysql.connector.connect(host='localhost',user='root',passwd='password')
+
+mycursor = mydb.cursor()
+
+mycursor.execute("Show databases")
+
+for i in mycursor:
+	print(i)
+
+
+---------------------------------------------------
+
+
+import mysql.connector
+
+mydb = mysql.connector.connect(host='localhost',user='root',passwd='password',database='testdb')
+
+mycursor = mydb.cursor()
+
+mycursor.execute("Create table employee(name varchar(200),sal int(20)")
+
+---------------------------------------------------
+
+import mysql.connector
+
+mydb = mysql.connector.connect(host='localhost',user='root',passwd='password',database='testdb')
+
+mycursor = mydb.cursor()
+
+mycursor.execute("Show tables")
+
+for i in mycursor:
+	print(i)
+
+
+---------------------------------------------------
+
+import mysql.connector
+
+mydb = mysql.connector.connect(host='localhost',user='root',passwd='password',database='testdb')
+
+mycursor = mydb.cursor()
+
+sqlform = 'insert into employee(name,sal) values(%s,%s)'      # here %s is place holder we gave the values below
+
+employees = [('harshit',20000),('amit',30000),('ankita',40000)]
+
+mycuror.executemany(sqlform,employees)      #because of we are giving more than one value that's why executemany
+
+mydb.commit()
+
+
+---------------------------------------------------
+
+import mysql.connector
+
+mydb = mysql.connector.connect(host='localhost',user='root',passwd='password',database='testdb')
+
+mycursor = mydb.cursor()
+
+mycursor.execute("select name from employee")
+
+myresult = mycursor.fetchone()   # this will give only first name if you want all of them than use 'fetchall'
+
+for i in myresult:
+	print(i)
+
+---------------------------------------------------
+
+import mysql.connector
+
+mydb = mysql.connector.connect(host='localhost',user='root',passwd='password',database='testdb')
+
+mycursor = mydb.cursor()
+
+mycursor.execute("UPDATE employee set sal=70000 where name = 'ankita' ")
+
+mydb.commit()
+
+---------------------------------------------------
+
+import mysql.connector
+
+mydb = mysql.connector.connect(host='localhost',user='root',passwd='password',database='testdb')
+
+mycursor = mydb.cursor()
+
+sql = 'Delete from employee where name = 'harshit' '
+
+mycursor.execute(sql)
+
+mydb.commit()
+
+
+=====================================================
+=====================================================
+=====================================================
+					SUMMERY
+
+import mysql.connector
+mydb = mysql.connector.connect(host='localhost',user='root',passwd='password',database='testdb')
+mycursor = mydb.cursor()
+
+
+
+mycursor.execute("Create databse testdb")
+
+
+
+mycursor.execute("Show databases")
+for i in mycursor:
+	print(i)
+
+
+
+mycursor.execute("Create table employee(name varchar(200),sal int(20)")
+
+
+
+mycursor.execute("Show tables")
+for i in mycursor:
+	print(i)
+
+
+
+sqlform = 'insert into employee(name,sal) values(%s,%s)'      # here %s is place holder we gave the values below
+employees = [('harshit',20000),('amit',30000),('ankita',40000)]
+mycuror.executemany(sqlform,employees)      #because of we are giving more than one value that's why executemany
+mydb.commit()
+
+
+
+mycursor.execute("select name from employee")
+myresult = mycursor.fetchone()   # this will give only first name if you want all of them than use 'fetchall'
+for i in myresult:
+	print(i)
+
+
+
+mycursor.execute("UPDATE employee set sal=70000 where name = 'ankita' ")
+mydb.commit()
+
+
+
+
+sql = 'Delete from employee where name = 'harshit' '
+mycursor.execute(sql)
+mydb.commit()

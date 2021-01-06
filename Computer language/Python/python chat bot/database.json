@@ -1,0 +1,28 @@
+{"intents":[
+    {
+        "tag":"greeting",
+        "patterns":["hi","how are you","is anyone there?","hello","good day","whats up","how are you doing today"],
+        "responses":["hello!","good to see you again!","hi there","how can i help you sir?","i am doing great"],
+        "context_set":""
+    },
+    {
+        "tag":"goodbye",
+        "patterns":["cya","see you later","goodbye","i am leaving","have a good day"],
+        "responses":["sad to see you go ","talk to you later","goodbye!"],
+        "context_set":""
+    },
+    {
+        "tag":"age",
+        "patterns":["how old","how old are you","what is your age","age?"],
+        "responses":["i am 18 years old!","18 years young!"],
+        "context_set":""
+    },
+    {
+        "tag":"name",
+        "patterns":["what is your name","whats your name?","what should i call you","age?"],
+        "responses":["you can call me harmonika","i'm harmonika"],
+        "context_set":""
+    }
+]
+
+}

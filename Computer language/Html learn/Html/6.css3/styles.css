@@ -1,0 +1,21 @@
+#first{
+    color: lightgray;
+    background-color: brown;
+}
+#second{
+    color:darkgoldenrod;
+    background: blanchedalmond;
+}
+body{
+    background: aqua;
+}
+#third{
+    color: rgb(111, 77, 55);
+    background: rgba(111, 77, 55, 0.5);
+}
+h1{
+    font-size: 145px;
+    width: 550px;
+    background: red;
+    margin-left: 39%;
+}

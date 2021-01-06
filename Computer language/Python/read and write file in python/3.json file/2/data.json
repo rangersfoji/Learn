@@ -1,0 +1,120 @@
+{
+    "states":
+        [
+            {
+                "names" : "asdf",
+                "abbreviation" : "asdf",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "dshg",
+                "abbreviation" : "tryuj",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "rkt",
+                "abbreviation" : "gfhk",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "ertg",
+                "abbreviation" : "ergt",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "ejy",
+                "abbreviation" : "fdsgr",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "ewrtjyer",
+                "abbreviation" : "truykut",
+                "area_codes" : [1,2,31,2,3]
+            },
+
+            {
+                "names" : "ruytk",
+                "abbreviation" : "rthyn",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "sdgf",
+                "abbreviation" : "erdf",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "kmrtk",
+                "abbreviation" : "rhy",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "esrth",
+                "abbreviation" : "svwer",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "svfew",
+                "abbreviation" : "yreiu",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "sdfg",
+                "abbreviation" : "e5ryt",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "h6ytre",
+                "abbreviation" : "eytrj",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "tyhj",
+                "abbreviation" : "tykj",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "ytulk",
+                "abbreviation" : "tyuk",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "oiul",
+                "abbreviation" : "yuil",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "yul",
+                "abbreviation" : "yuil",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "yuik,",
+                "abbreviation" : "ytiul",
+                "area_codes" : [1,2,3]
+            },
+
+            {
+                "names" : "yui;l",
+                "abbreviation" : "yuil",
+                "area_codes" : [1,2,3]
+            }
+
+            
+        ]
+}

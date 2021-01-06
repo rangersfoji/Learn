@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.inner{
+    width: 80%;
+    margin-left: 10%;
+    height: 50%;
+    background: blue;
+}
+.outer{
+    width: 200px;
+    height: 200px;
+    background:red;
+}
+
+.relative{
+    font-size: 2em;
+    /*
+     em - relative depends on parent 
+     1em = 16px default browser style;
+     1em = base value
+     you can change browser default font-size value 
+     */
+ 
+}
+
+.absolute{
+    font-size: 32px;
+}
+
+
+/* 
+set default font-size value 10 px
+so now  1 em = 10 px
+        2 em = 20 px
+
+        while px size is absolute so  'absolute' text size will be constant
+*/
+div{
+    font-size: 10px;
+}
+
+/* 
+
+  now  rem
+       rem - Relative depends on root (like browser default value)
+       rem - you set rem value from  html tag
+       1 rem = 16px default browser style
+
+       if you change the default value of html font size
+       than it will effect  em size as well
+*/
+
+html{
+    font-size: 35px;
+}
+
+.test1{
+    font-size: 1rem;
+}
+
+/* 
+
+realy useful size 'vh' 'vw'
+vh - height - percent of the screen
+vw - width - percent of the screen
+
+*/
+
+
+#test
+{
+    width: cover;
+    height: cover;
+    background-position: right;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.png);      
+
+}
+
+.text2{
+    color: white;
+    size: 2vw;
+    word-spacing: 3px;
+    padding: 0px 3px;
+}
+
+#test2{
+    background: blue;
+    height: 100px;
+    width: 99.2vw;
+    
+}
+
