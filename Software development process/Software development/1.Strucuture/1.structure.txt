@@ -1,0 +1,206 @@
+Software development or project structure.
+
+1. Need to know : some definitions
+                  The scenario
+                  Roles & Responsibilities
+                  Understand the customer requirement 
+                  Presentation of the case study
+
+2.Software Development models : What is a software development models
+                                Software development life cycle (SDLC)
+                                What are the sofware development life cycle (SDLC) phases?
+                                List of the software development models
+                                Description of the most popular Software development models
+                                Description of the most popular software development life cycle models
+                                How to select the right software development life cycle model 
+                                Which factors determine the selectioin of the development model 
+
+ Phases of a software development process :
+      Requirement gathering > Design > Implementation > Testing > Go live & Maintenance
+          ^                     ^
+          |                     |
+    analysis , planing     Re-planing,Technical specifications
+
+
+3. Phase 1 - Requirement gathering : Whaqt is requirement gathering
+                                     Initial Requirement
+                                     Uncertainty in Technology
+                                     Case study - an eLearning membership website
+                                     customer requirement
+                                     Indentify the solution
+                                     Identification of the skill and technologies
+                                     Work organization
+                                     Ways to collect the requirements
+                                     Analyse the requirements
+                                     Review the customer processes and define what to automate and what not
+                                     Agreement and sign off  
+
+4. Phase 2 - Design - The Unified Modeling Language (UML) : Introduction, UML
+                                                            Diagram types
+                                                            Class Diagrams 
+                                                            UML Relationships 
+                                                            UML Packages
+                                                            UML Composte Structures
+                                                            Component Diagrams
+                                                            Use case Diagrams
+                                                            Use case modelling 
+                                                            Use case document 
+                                                            Interaction & Collaboration Diagrams
+                                                            Statechart Diagrams 
+                                                            Activity Diagrams 
+
+5. Phase 2 - Design - Software Architecture and design definition : What is software Architecture?
+                                                                    wHAT IS Software Design
+                                                                    Software Architecture vs Software design 
+                                                                    Software arhitecure : basics 
+                                                                    components , packages , interactions 
+                                                                    interaction oriented architecure,MVC pattern
+                                                                    security, performance , fault-tolerance, robustness
+                                                                    extensibility, s3rd party usage
+                                                                    High level design 
+                                                                    Low level design - use cases
+                                                                    Low level design - detailed process descriptions (the technical briefing)
+                                                                    Back end design 
+
+6. Phase 2 - Design - Databse Architecture : What is a databse 
+                                             Relational databse 
+                                             Define a databse 
+                                             Primary key 
+                                             Foreign key 
+                                             Roles and privieges
+                                             Case Study - Database structure
+
+7. Phase 2 - Design - Technical Requirements : What is a technical requirement
+                                               Case Study - technical Requirement 
+                                               Scrum methodology - the requirements
+                                               user story
+                                               Scrum methodology - the definition of done 
+                                               Case Study user stories 
+                                               Case Study - definition of done 
+
+8. Phase 3 - Implementation - Development : Installations 
+                                            Configurations 
+                                            Customizations 
+                                            Integrations 
+                                            User Training 
+                                            Structured Programming 
+                                            Functional Programming
+                                            Programmingstyle
+                                            Examples of programming style guidelines 
+                                            Code re-use
+                                            Multi_site Distributed Software
+                                            Development
+                                            Development environments and IT
+                                            infrastuctures
+
+9. Phase 3 - Implementation - Version Management : What is version COntrol?
+                                                   Git and GitHub
+                                                   git branching model 
+                                                   Git Terms : Repository,Staging , commit , push , pull 
+                                                   Git in action 
+                                                   Software versioning
+
+10. Phase 3 - Implementation - Risk assessment : Software Risk Identificatioin 
+                                                 Software Risk Analysis 
+                                                 Software Risk Planning
+                                                 Software Risk Monitoring 
+
+11. Phase 3 - Implementation - Change management : What is Change Management in Software Development
+                                                   The change management process 
+                                                   Agile change management process 
+
+12. Phase 3 - Implementation - The deployment process : The deployment process 
+                                                        The documentation for the deeployment
+                                                        Agile software Deployment
+                                                        Regression testing 
+
+13. Phase 4 - Quality Assurance (testing) - Verification : Verification phase 
+                                                           Software Quality 
+                                                           Software testing life cycle 
+                                                           Agile methodology in testing 
+                                                           how to check the quality of a software product?
+                                                           Overview of the tests 
+                                                           Definition of test scenario
+                                                           Definition of test case 
+                                                           Example of test case 
+                                                           Case Study -define the test scenarios 
+                                                           integration tests
+                                                           Performance tests 
+
+14. Phase 4 - Quality Assurance (testing) - Validatioin 
+
+15. Phase 4 - Quality Assurance - Incident Management : Incident management 
+                                                        The incident management reprot
+                                                        The incident management process 
+                                                        Incident management system 
+                                                        Case study 
+
+16. Phase 5 - Go Live : What is a sofware go live 
+                        The Go Live precess 
+                        UAT (user acceptent test) texit procedure 
+                        project sign-offpreparation
+                        Go Live checklist
+                        Cut over 
+                        Go Live 
+                        Lesson learned
+
+17. Software Maintenance : Software Maintenance definition 
+                           Maintenance Agreement
+                           Software Maintenance process 
+                           Software Maintenance Methods
+
+18. Software Platform Development : What is a software platform 
+                                    Product customizations 
+                                    Cases study - define the platform 
+
+19. Agile Frameworks : SCRUM & Kanaban : Agile methodology
+                                         Agile Frameworks - Scrum 
+                                         The Scrum Sprint Cycle 
+                                         Scrum Release planning 
+                                         Sprint planning 
+                                         The daily scrum 
+                                         The Sprint Review 
+                                         The retrospective meeting 
+                                         The kanban Agile System 
+                                         Kanban Boards 
+                                         Team size in a Scrum project 
+
+20. Object-Oriented Programming Concepts : What is OOP?
+                                           Objects 
+                                           The Class 
+                                           Encapsulation aned Data hin\ding 
+                                           Abstraction 
+                                           Inheritance 
+                                           Polymorphism 
+                                           Interfaces 
+
+21. Project Management : Project management concepts 
+                         Characteristics of a project 
+                         Taks in a project 
+                         The Output of a project 
+                         Diagram of a project 
+                         The work breakdown Structure : breakdown the project phases  
+                         The work breakdown Structure : assign WBS codes to phases and tasks
+                         The release plan 
+                         Traditional project management
+                         Agile project management:Scrum 
+                         Case Study - setup the project plan 
+
+22. Documentation management : The importance of the documentation in a sofware 
+                               develoopment process
+                               Overview of the documentation 
+                               Style guidelines 
+                               Guidelines for the third pary integration 
+                               List of templates 
+                               The project concept 
+                               API documentation 
+                               Sitemap and web site structure 
+                               User manuals 
+                               Module/component catalogue 
+                               COntent gathering decks 
+                               Data validation rules 
+                               Track your documentation: the meta data collection
+
+23. Special Bonuses 
+
+

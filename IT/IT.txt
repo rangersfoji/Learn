@@ -1,0 +1,377 @@
+1. confidentiality (gopniyata like password, biomatrics)
+2. integrity (akhanditta)
+3. availibility 
+4. HTTP (hyper text transfer protocol)
+5. HTTPS (hyper text transfer protocol secure)
+6. stateless system ( jyare nava webpage par jao tyarae juna sathe connection tuti jay)
+7. SSL ( secure socket layer ) jyare https hoy tyare aa hoy je encryption provide kare.
+8. SSh (secure shell) aa programmer ke network administator ne web ni coding mate hoy ema security puri pade.
+9. FTP (file transfer protocol) upload and download vakhate vaprato protocol che.
+10. SFTP (secure file transfer protocol) secure version of FTP.
+11. IMAP (internet message access protocol) online chat aanathi controle thay
+12. SMTP ( simple mail transfer protocol) aa nathi emails governs (control) thay.
+13. TCP/IP protocol
+14. TCP (transmission control protocol)  moti file ne mokal va mate tene nana part ma mokalay pachi download kari ne jodi levay.
+15. IP (internet protocol) je e nana nana part nu address che.
+16. file char layer ma jay and network bane
+17.   1. datalink layer: tamaru computer e host sathe connect thay simplely enternet sathe connect karavu  
+      2. internet/networking layer: aa networko ne connect kare pan aa jate j thay. ex. IP
+      3. transport layer : aa layer e host vachhe nu communication sambhale ex. TCP
+      4. application layer : aa actual data exchange che.ex . HTTP , FTP 
+      aa mostly used when 1. on the enternet
+                          2. emails
+                          3. playing games
+18. hacking methology (karypranali) : 
+    1. Footprinting : target ni passive method thi information gain karavani. ex. who is queries , google searches , job board searches like job requarment ma em kidhu hoy k unity software aavadavu joie means k aa compeny ma unity software vapray che em.
+    2. Scaning : a more active way of gathering information like port scannig , ping sweeps and physical observation of a target or facility.
+    3. Enumeration ( ganana , ganatari ) : much more detailed information is extracted in this phase like usernames , passwords 
+    4. system hacking : aa stage ma hacker finaly hack kare.
+    5. escalation of privileges ( visheshadhikario no vadharo) : aa stage ma hacker ena victim par vadhare control melave. like low level account parthi admin account par.
+    6. covering tracks : aa stage ma hacker ena badha tracks ne  cover kare and evidence ne destroy kare.
+    7. planting backdoors : for regain access and control mate ek rasto hacker victim ma chodi de. 
+19. foorprinting : "icann whois" website parthi tame information melavi shako pachi jene hack karavi hoy enu name lakhi ne lookup karo to information male like email , contact .
+20. enumeratioin : some hacker have much more social engineearing skill so e phone call scame and email and face to face vato thi username and password and software kayu vapre che evi detail laile . jem k india ma credit card na  k aadhar card na number mate phone aave che ect.
+21. BFA ATTACK: BFA ( brute force attack) : aa bau juno attack che aa jate try kari ne nakhvano guesses parthi nakhvano , aama mahina years pan nikali jay.
+                aa attack mate automated software pan vapray che.
+    Dictionary attack : aa attack ma dectionary na darek word vapravama aave.
+    prevention : 1. use strong password
+                 2. restrict number of times a user can attempt to login successfully. like amuk website ma vadharema vadhare 3 vakhat j password nakhi shakay.
+22. phishing : aa attacke ma hacker e reputable person k entity no masquerades ( dhong ) kare. normaly email thi mokale hacker. hacker email ma attachment k link thi mokale. lalach aape.like diwali ma 50 % off melavava ahi click karo . hacker e sony and amazon jevi  reputed company na logo vapare. spelling thi pan costomer ne fool banave like amazoon , descounts.sony.com ,act. Attacks against specifically senior executives of a company is called a whaling attack.
+23. email spoofing etle original company no email e vicim vache hacker hoy and hacker victim ni information gather kare.
+24. fighting against phishing :
+      1. vigilance ( jagarukata ) 
+      2. use email filters
+      3. http://fraudwatchinternational.com/phishing-alerts/        aa website ma lettest fraud email ni janakari hoy che.
+25. bots & botnets : bots 1. full form robots
+                          2. commonly referred as zombies reason : attacker e infected computer par full control melave using trojan hourse
+                     botnets is collection of bots
+                          1. je main badha bot ne control kare ene botmaster k bot header kahevey
+                          2. bot master na command thi badha bot kam kare.
+                          3. main attacker e victim na computer par bots through attack kare.
+                          4. botnets are very often used to perform DDos attack (very popular attack)
+
+                  prevention : 1. updated anticirus and antimalware products 
+                               2. not clicking on suspicious ( shakrupi) link 
+26. Dos and DDos :  Dos (denial of service attack )  and  DDos attack ( distributed denial of service attack)
+                    web browser e server ne content mate request kare pan jo bau j vadhare request ek j time par server par aave to server down thai jay . aa mate hacker botnet vapre . 
+                        DDos attack: 1. floods server networks with useless traffic 
+                                     2. A website becomes inaccessible or there is an enormous ( vishal ) amount of spam email. aa attack thi bachava simply ip address main source nu block kari devu pan ek j source hoy to e thai jay pan botnet ma thousands of diffrent source hoy to defacence karavu mushkel pade. 
+                                     3. DDos attack mostly botnet dhvara thay and Hacktivist kare.
+                                
+             prevence : 1. compony should keep overprovision bandwidth
+                        2. compony have DDos playbook (solution book type)
+                        3. calling  a DDos specialist ex. akamai , cloudflare.
+27. ping : ping no use koi website chalu che k nahi te janava mate thay . 
+           how to work:  windows key + R karo and cmd kari ne command promt kholo. 
+                         pachi ema ping karine je website chale che k nahi te check karavani hoy te lakho jo 100% loss aave to website chalu nathi end jo batave to chalu che.
+                         gani var tamare website na khule and vaparo and ping barabar batave pan tamare na open thay to tamara enternet connection na problem che.
+                         hacker gani var website par attack karava botnet na through ping ni request thi attack karine website ne down kare. je ne ping flood kahe che.
+28. man in the middle attack  (MITMAs) :  hacker in between to comunication vala computer.
+                                te be computer ni data k chat vanchi pan shake and modify pan kari shake. 
+                      
+                  key point : aa attack mate hacker ne banne computer par full control hovo joie
+                              very common with unsecure wireless connecion and too difficult in wireness network
+          
+                  1. email hijacking : attacker gains access to email accounts
+                  2. wifi eavesdropping : hifacking a wifi connection
+                  3. session hijacking : connection between a computer and a website.
+29. SQL attack : SQL ( structured query language ) 
+                 used for database management and data manipulation
+                 SQL is used to query, insert , update and modify data.
+                 attacker executes melicious SQL commands to corrupt a database. tenathi hacker e unauthorized access like usernames and passwords.  pachi hacker e data ne badali shake , delete kari shake . very power full attack CIA par pan thayelo che. "Havij" developed in iran is a popular tool used by penetration testers to find and exploit SQL vulnerabilites pan hacker database ne hack karava mate aa tool vapare che.
+               
+    cross-site scripting ( XSS ) attack : aama hacker malicious code en website and webapplication ma inject kare che. aa victim par direct attack na thay pan jyare victim e website par jay thare attack thay and victim nu browser infected thay.
+ 
+    combating SQL attack : 1. limitng database privileges means amuk authorize person j database ne access kari shake.
+                           2. applying software patches
+
+30. malware = malacious + software  ( je pan software e kharab hetu mate nu hoy e malware kahe che.)
+       badha virus and trogens and worms and malasious code ne badhu e malware na sub section che.
+
+31. malware na mostly 2 type:
+    1. virues 
+    2. worms
+
+    virus and worms are malicious code written to alter the way a computer of a network operates.
+    virus and worms can effect computers and network also.
+    
+    1. virus requires an active host program or an alredy infected system to run and cause damage by infecting other executable files or documents.
+         1. ciruses typically attach themselves to executable files and word document.
+         2. they spread via email attachment , infected websites , flash drives.
+         3.a virus will remain dormant until the infected file or system is activeted. ex. virus tyre j attack karase jyare perticular website open thashe.
+         4. once activated , the virus causes destruction.
+       viruses can very widely in their objectives
+       some are purely destructive ex. destroy files.
+       other can slow down system performance
+       some viruses are non destructive ex. latent virus aa virus e khali padya re kai kare na.
+
+    2. a worms is self replicating and self propagating. worms have ability that it can replicate by it self. worms is advance virson of viruses.
+          1. worms enter ststem via network connection or a downloaded file.
+          2. they then make compies of themselves and can spread via a network / internet connection.
+
+    fight against viruses and worms 
+        1. antivirus and antimalware products
+        2. flash drives no use na karavo ex. pendrive and hard disk.
+        3. scan email attachment
+
+32. Trojan : a very powerful malware often disgusied as legitimate ( kaydesr ) software.
+             it could be a game , song or even application
+             trojan cannot self replicate.
+
+    majer 4 types : 
+        1. backdoor trojan : allows hacker unauthorized access to a system in order to control it .
+        2. infostealer trojan  : steal data from the infected computer.
+        3. trojan downloader : can download and intall new vierson of malware into a system.
+        4. trojan DDos : can conduct DDos attack against websites.
+
+    fight against trojans : 1. using anti-malware products.
+                            2. run updates when available.
+                            3. download files from only trusted websites.
+ 
+33. adware and spyware : 
+         
+          1. adware : a program that display unwanted banner advertisements.
+                      free intalled software download karo to ema jova male.
+                      adware thi add batavana paisa male tethi free ma developer software aape.
+        
+               some adware can hijack your browser start or search pages. aa adware e tamane automatic different website and webpages par lai jay jya teo aapanane visit karavava mangata hoy.
+               others can track web usage and are typically referred to as spyware. 
+
+           2. spyware : spyware are a form of adware for spy your webusage.  
+                        spyware monitor computer and internet use.  ex. keyloggers that can record keystrokes or take screenshorts. 
+                        data is sent to hackers or advertising agencies. and password and creditcard informatioin pan hoi shake.
+
+
+
+           fight against as/spyware : 1. free software bane tya sudhi na vaparo
+                                      2. use spyware scanners
+
+34. ransomware : example of ransonware is jyare computer lock kari de and open key mate money mange e.
+                 
+                 you have been locked out until you pay for your ciber crimes. "tame koi pronography k evo cyber crime karyo hoy and punishment na perpose thi aa develope karavama aavyu hatu.
+                 ransomware thi tame kai j na kari shko computer lock j thai jay.
+                 it can spread to other pcs and turn them to botnets.
+                 targets anyone and everyone.
+                 mostly payment bitcoin ma j mangava ma aave karan cripto currency ne track na kari shakay police k authority thi.
+                 gana badha variants rensomware na che and more are produced quickly.
+                 computer mostly downloads and email link thi infected thay che.
+                 
+           fight against ransomware :  1. data backup
+                                       2. turn off external application like dropbox (use kari ne trun off kari do jethi eno data infected na thay.)
+                                       3. run updates including browser addons.
+                                       4. never open spam emails or click on suspicious links.
+                                       5. use antivirus
+
+35. Rootkits : rootkits hide and attack when opportunity arrive.
+               hardest malware of all to detect and remove.
+               it allows viruses and other malware to "hide in plain sight" by disguising ( hide ) them as real essential ( jaruri ) files.
+               they are activated even before the operating system boots up.
+               recommended solution will be to wipe out (formate ) the  hard drive. ( aana detect karava mate koi software banyu nathi thethi aa bau khatarnak malware che.)
+               
+
+    borwser hijacker : hijacks the victim's browser
+                       can redirect victims to specific pages. ex.tame browser nu home page koi website set kari hoy pan aa hijacking pachi tame jo browser open karo to tame bija webpage par redirect thai jao. 
+                       intention is make money by feeding ads to the victim.
+                       
+    rogue security software : pretends to be a good program to remove malware but is in fact a malware itself.
+                              very often will turn off any real security software available.
+                              gotten from websites offering better security. ex. tame aa software download karo to tamane vadhare security malase pan real ma e virus hoy. 
+                              only intall security software from known vendors.
+
+36. antivirus : anti-virus software  is used to protect a computer from malware.
+                viruses detect malware by signatures ex. patten of data that is known to be related to already indentified malware.
+                antiviruses can also use heuristic (anumani) methods ex. predicting a file is malicious by stading its behavior.
+                
+                sandbox testing = the file is allowed to run in a controlled virtual system to see what it does.
+ 
+                ( very popular in it termonology ) can result in a false positive - a legit ( good ) program classified as malware. ex. aapadi game ni dll fileo.
+                jyare anti-virus e heuristic method thi file ne virus tarike declare kare to most time e hoy j che aagal jaine bane j che.
+ 
+           antivirus operatioins : on access scanning - the antivirus checks every file or program that is opened.
+                                   full system scan
+                                   
+           polymorphic virus - a virus that morphs or charges its code making it very defficult to be detected.
+        
+           deffirent antivirus ma amuk ram and prossesor no vadhare use karata hoy and amuk ocho.
+
+37. encryption : a process of making information hidden or secretive.
+                
+        encrypt = en + crtpto
+            en = make 
+            crypto = hidden/secret
+
+        encryption uses of a key to make the information secretive. information secretive bane tene "cipher" kahevay. 
+        decryption also uses a key to unlock the cipher and make it accessible again.
+        cryptography is the study or science concerned with secret communication.
+
+        types of encryption : 1. asymmetric encryption
+                              2. symmetric encryption
+ 
+        asymmetric uses two different keys for encripting and decrypting.
+        symmetric uses just one.
+
+        asymmetric encryption : 1. rivest 
+                                2. shamir
+                    		3. adleman
+
+	symmetric encryption : 1. data encryption standard (DES) 
+ 			       2. advanced encryption standard (AES)
+
+38. firewalls : a firewall is a security decice that monitors incoming and outgoing network traffic.
+                ex. company and internet ni vachhe firewall hoy. firewall is like gateway j make sure kare k internet parathi aavati information safe che k nahi and company thi j information e internet par jay che e pan safe che.
+                ex. from the outbound side, firewalls can prevent employess from sending certain data outside of the network.
+                ex. from the inbound side, firewalls can prevent access to certain websites.
+                
+        how it work : packet filtering = checks all the data passing through using the filter.
+ 	              proxy service \ the firewall acts as an intermediary between systems.
+            (advance) stateful inspection = trarcks the state of a connection between systems. aa data pass thay ene check kare and ip adress pan check kare j mokalto hoy eno.  
+
+        types of firewalls : 1. hardware = can be standalone or bulit into network devices like switches and routers. 
+                             2. software = either a standalone applicatioin or part of a security application like anti-virus.  amuk antivirus ma firewall includes j hoy che.
+			      
+39. biometrics : a security mechanism used to authenticate and provide access based on the verification of physical characteristics. 
+                 every one is unique.
+                 
+        types of biometrics indentifiers : 1. physiological characteristics = the shape or composition of the body.
+                                  	   2. behavioral characteristics = the behacior of a person. (more advance)
+          
+        1. physiological characteristics : fingerprints
+              				   dna
+				           retina
+					   face
+					   hand
+
+        2. behavioral characteristics : voice
+ 					gesture
+			                gait (chal)
+
+
+a database that stores the biometric data for comparison.
+accuracy has improved and cost reduced over time.
+becoming increasingly common.
+
+
+40.  factor authentication methods : aa e judi judi type ni ek thi vadhare security system che like voice security and password and fingerprint.
+                                    
+       2 factor authentication : a user provides 2 authentication factors to verify who they are.
+                                 provides an additional layer of security.
+				 
+       authentication factors : aa che su to = knowledge factor = something the user knows like a password.
+                                               possession factor = somethig the user has like a token or mobile device or key card.
+ 					       inherence factor = somethig the user is ex. biometrics.
+
+       2 factor authentication : using two factors from the same category does not constitute 2FA ex. userbname & password.
+                                 provides an additional layer of security.
+      				 authentication products include tokerns , smart cards and smart phones.
+                                 ocerall it does improve security but not foolproof because cards could be stolen and fingerprints lifted.
+                                 so 3 factor and multi factor authentication methods are futher improvements.
+
+       multi factor authentication : can include two more factors like time and locaiton.
+
+41. honeypots & DMZs : 
+
+     honeypots : a computer system thea is a decoy (nakamu) to lure (lalcha) cyberciminals. aa ek alag system hoy j ne hacker hack kare and ene lage k e system ne hack kare che pan aa to alag system hoy che j emne pakadava mate hoy che.
+		 used to study attempts (try) to gain unauthorized access. hacker e aane real system samaji ne attack kare jyare cibersecurity valo santi thi jove and study kare k te kai rite hack kare che.
+                 the computer, applicatioins and data simulate (anukaran) the behavior of real system.  high experance hacker kahi shake k aa real system che k decoy pan jetlo honeypot saru simulate kare etla j tene dittect karavu mushkel bane.
+  
+     types of honeypots : 1. producion honeypot 
+     			  2. research honeypot
+
+     1. research honeypot : run to enable close analysis of how attacks develop and progress in order to learn how to protect systems against them.
+                            
+     2. production honeypot : placed inside a production network with other real servers to act as a decoy.
+                              they are designed to appear real and contain resources to attract and occupy hackers.
+                              the objective is keep the hackers distracted while the real producion server are patched up.
+
+     
+     DMZs (demilitarized zone) : a physical or logical subnetwor the seprates a local area networ form other untrusted networs ex. the internet.
+                                 external facing server and resources are placed in the DMZ so they are accessible from the internet but the internal Lan is kept off limits.
+
+42. wireless security : the prevention of unauthorized access or  damage to computers using wireless networks.
+                        
+       1. WEP (wired equivalent privacy )
+       2. WPA (wi-fi protected access)
+
+       1. WEP = very weak with 64-bit and 28-bit encryption keys 
+                passwords can be cracked in minites.
+                superseded by WPA in 2003
+                still widely used
+ 
+       2. WPA = developed by wifi alliance
+                massive security inprovement over wep with 256-bit encrypton keys.
+                superseded by WPA2 in 2006.
+
+43. BYOD : bring your own device
+           aama employee e potana mobile and devices ne office na work mate vapari sake and home ma pan potana work kari sake.
+           tenathi security ni navi tako ubhi thay.
+
+44. sample BYOD policy : must address both the concerns of the company and the employees.
+                         must aim for a balance between security and easy of access.
+                        
+
+
+ 			 determine (nakki karo ) what devices will be permitted and who will be allowed to use them. 
+          	     	 determine the kind of company data that will be accessible.
+                         clearly state the right of the company to access, monitor and delete information from the employee owened devices.
+                         explain how the company will protect the employee's personal data.
+                         deploy (tainat karana) mobile device management to partition the devices separating work data from personal files. jem k ek pendrive e home mate and other e work mate separate.
+   			 enforce (lagu karana) use of strong passwords , antimalware and automatic lockup after periods of inactivity.	
+                         estabish (sthapit karavu) protocols for lost or stolen devices.
+                         develop the policty in pratnership with IT , TIsk management and legal counsel.
+                         revise current policies and protocols.	             ]
+
+45. easy to access and security : it manger k security ne easy to access and security vchee balance karavanu hoy che.
+                                  jo bau easy to access rakho to security bau down jati re and jo bau security vadharo to easy to access employees mate hard bani jay.
+   				
+46. the weakest link & the disgruntled (asantusht) employee : it pofessional and hacker vachhe ek j kadi employee .
+          	                                              jo employee e bau week hoy and password e paper par lakhato hoy and by chance e hacker na hath ma aavi jay to e company nu majer nukasan thai shake.
+                                                              etle j jyare koi employee ne fire kare pachi badha j user name and password ena computer na badali nakhe.
+
+47. cyber warfare : attack against cyber infrastructure of country and mostly e onther country ni government j karave che. government to jate na kare pan e hacker ne hire kare.
+                    many country ni government gave online badhu kare che security bau karuri che.
+
+48. th attack against estonia : aa estonia and russia vache no ek banav che.
+                                je ma estonia par attack thayo hato.
+
+49. STUXNET - the attack against iran : aa ma iran e urenium thi nuclear wapon banavato hato and ena par aa power full attack thayo hato ema warm e specificaly design karelo hato and e usb thi enject thayo hato.
+
+50. the attack against sony : aama hacker e sony nuakhu	network hack kari didhu and badho internal data download kari didho. evu manay che k aani pachal north korien gournment hati aani pachal.	
+
+51. Basic Terminologies : Below are some of the main terminologies that you should be aware about in the world of computer and network security. 
+                         
+         Blacklist? - Used to refer to a list of banned IP addresses, applications or users. 
+         Whitelist? - The exact opposite of a blacklist 
+         Cat fishing ?- The process of creating a fake online profile in order to trick people into believing they are someone else for financial gain. 
+         Threat? - This generally refers to anything that has the potential to cause our data, systems and networks harm. 
+         Exploit? - A clearly defined way to breach the security of a system. 
+         Vulnerabilities? - These are weaknesses within a system or network that can be exploited to cause us harm. 
+         Risk ?- This refers to the likelihood of something bad happening. A risk requires both a threat and a vulnerability to exist. 
+         Zero Day? - This is used to describe a threat that is unknown to security specialists and has not been addressed. 
+         Hack Value? - This describes a target that may attract an above average level of attention from an attacker. 
+         Non-Repudiation ?- This is the concept that once an action is carried out by a party it cannot be denied by that same party. 
+         Logic Bomb? - A malicious code that is only triggered when a set of conditions are met. 
+         Obfuscation? - A term used to describe the tactic of making code unclear so that humans or programs like an antivirus cannot understand it. 
+ 
+52. myths = 1. i am not rich , i am not famouse so no one gonna hack me.
+            2. i have intalled xyz security so no one can hack me. 
+            3. i have strong password so i am good to go.
+            4. i trust my friend so he will never suspicious link from email.
+            5. i don't serve unsafe website so i don't need to security.
+            6. social network are safe.	
+            7. if my computer has been hacked so i will definetlly know.
+
+53. Cookies : What are Cookies? 
+
+         You may have heard of the term cookies before but what exactly are they and how can they affect the security of your computer? 
+
+         A cookie is a text file which is placed on your computer whenever you visit a website. This cookie allows the website to keep track of your visit details and store your preferences. The main objective here is to increase the speed with which you visit that same website again. At the same time, they are very useful for advertisers who can match the ads to your interests after they see your browsing history.  
+
+         Usually, cookies and temporary files may affect your privacy since they disclose your online habits, but it is possible to modify your web browser preferences and set a limit. 
+ 	
+54. WHAT IS MDM? 
+ 
+      Mobile Device Management is the industry term that deals with deploying, securing, monitoring, integrating and managing mobile devices in the workplace. 
+ 
+      The primary objective is to optimize functionality and security of mobile devices.  
+ 
+      There are different types of MDM software that allows the distribution of applications, data and configuration settings and patches for such devices.  Ideally the software should be able to allow IT administrators to manage and troubleshoot mobile devices remotely. 						

@@ -1,0 +1,43 @@
+1581395493162	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Karan\\AppData\\Local\\Temp\\rust_mozprofilecqfjFk"
+1581395493818	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581395493915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581395493915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581395493915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581395493915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581395495846	Marionette	INFO	Listening on port 58826
+1581395496290	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://spoprod-a.akamaihd.net/files/odsp-next-prod-amd_2020-01-31_20200210.001/require-d1fe9e80.js, line 1: Error: Script error for "@ms/odsp-datasources/lib/providers/theming/FabricDeferredCustomizations"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://spoprod-a.akamaihd.net/files/odsp-next-prod-amd_2020-01-31_20200210.001/odconeup-8af13828.js, line 19: TypeError: The expression cannot be converted to return the specified type.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1581395549967	Marionette	INFO	Stopped listening on port 58826
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581448771595	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Karan\\AppData\\Local\\Temp\\rust_mozprofileTK6s7q"
+1581448772567	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581448772720	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581448772720	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581448772721	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581448772721	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581448775002	Marionette	INFO	Listening on port 61219
+1581448775233	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://spoprod-a.akamaihd.net/files/odsp-next-prod-amd_2020-01-31_20200210.001/require-d1fe9e80.js, line 1: Error: Script error for "@ms/odsp-datasources/lib/providers/theming/FabricDeferredCustomizations"
+http://requirejs.org/docs/errors.html#scripterror
+1581535180165	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Karan\\AppData\\Local\\Temp\\rust_mozprofilerVoC4p"
+1581535181384	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581535181739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581535181739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581535181740	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581535181740	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581535184656	Marionette	INFO	Listening on port 62597
+1581535184904	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://spoprod-a.akamaihd.net/files/odsp-next-prod-amd_2020-02-07_20200211.002/require-27b91a71.js, line 1: Error: Script error for "@ms/odsp-datasources/lib/providers/theming/FabricDeferredCustomizations"
+http://requirejs.org/docs/errors.html#scripterror

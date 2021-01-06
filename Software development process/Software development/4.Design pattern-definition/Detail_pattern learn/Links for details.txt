@@ -1,0 +1,5 @@
+1.https://www.tutorialspoint.com/design_pattern/design_pattern_quick_guide.htm
+
+All types of pettern with overview example link (learn them with detail):
+
+https://medium.com/@ronnieschaniel/object-oriented-design-patterns-explained-using-practical-examples-84807445b092

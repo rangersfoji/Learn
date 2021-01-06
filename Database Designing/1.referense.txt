@@ -1,0 +1,157 @@
+---------- References ------------
+Look Up table:
+    - If the option type data are going to add in same table 
+        create new table
+
+    EXAMPLE: 
+        - Order table have status 
+        - if you have 'delivered' in you status, it is going repeate it self and take more space
+            and if you want to chage it, you have to change to all other order with same status
+        
+    SOLUTION:
+        - Create new table for that 
+        - Reference it's key to other 
+            if you want to change it will be easier and fater
+            and if you want to add new column you can do that easily
+
+---------- Revise this -----------
+
+Data design steps:
+    conceptual = when you think and draw on paper
+    logical = final product of strucured database will be created here
+    physical = 
+        - what relational database management system use?
+        - what are table type?
+        - what server are we going to use?
+        - is it going to be on server or locally on computer?
+        - create views according to person authorizations
+    
+Standard Databse Drawing Methods (optional):
+    - EER Model 
+    - ERD Model 
+    - ER Model 
+
+    Cardinality:
+        check out image 1
+
+    Modality:
+        check out image 1
+
+------------------ Steps -----------------
+1. make draft what are you going to need and create tables 
+
+2. create column properties:
+
+    primary-key
+    foreign-key 
+    data type
+    unique 
+    not null
+    auto increment
+    default value 
+    ON_DELETE
+    ON_UPDATE
+
+    -----------
+    index should create?  
+    can be change [if its true then make form to edit/change it. EXAMPLE: change password]
+
+3. create relationships
+
+4. Do followings:
+    - Atomic Value: create evey thing atomic way
+        EXAMPLE:
+            insted of name column create 2 column firstName, lastName, middleName(optional)
+    - break one table into two table (create new entity if you can)
+    - is any column is eligible for look_up_table [Reference up there]
+
+5. Databse Normalization:
+    SETPS:
+        - 1st NF (Normal Form)
+        - 2nd NF 
+        - 3rd NF
+
+        1st Normal Form:
+            - data should be atomic 
+                EXAMPLE: Username FirstName LastName Address 
+                    - here address containes multiple column related to address 
+                    - so if you can create different entity then create new table 
+
+                EXAMPLE: If you allow user to have 2 emails
+                    - and you try to insert in one email row or create 2 same entry with different email 
+                    - it is bad design
+                    - so create new table for that 
+
+            - in short any table can not have duplicate data in any column is best design
+            
+
+        2nd Normal Form:
+            - deals with paritial dependency
+                EXPLANATION:
+                    - if you have to tables then which column related to which table
+                    - related column goes to related table 
+
+                    - in many to many relation ship 
+                        - middle/intermediary table will have those column that is related to both table 
+
+            ----------------
+            here you implement or draw relationships like 1:1, 1:n, etc.
+
+        3rd Normal Form:
+            - deals with transitive dependency
+                - it is like column dependends on column which dependends on primary_key
+
+                EXAMPLE : 
+                    - review_id | review | star | star_meaning | user_id(FK)
+
+                    - here if you change star then star_meaning will be change 
+                    - so star_meaning dependends on star where as star dependends on review
+
+                    - if you want to find this kind of think then think like if you change one column then will any other column change?
+                    - then it's need new table
+
+                    - here you create star table :
+                            star_id | star | star_meaning
+
+After created databse:
+    - Good Design: check every table at least have one natural key 
+    - create indexes 
+        [figure out all where name = "something", make name index]
+        [join to table on t1.first_name = t2.firstName, make index firstName]
+
+        - downsides:
+            - it take more time to add/update/modeify/delete that data 
+                if you are going to change/insert more than search/read then don't create it
+
+    - create views
+    - make form for can be change field/column [if its true then make form to edit/change it. EXAMPLE: change password]
+
+Index:
+    Type:
+        1. clustered index:
+            - data stroed in sorted way
+            - can have only 1 [like you can sort data only by name or only by price, etc]
+        2. non clustered index:
+            - data stored in unorder way but index points to data and index is sorted
+            - can have as many as you want
+
+            select * from table where firstName == "karan"
+            - always create index for column that you are going to search [here firstName]
+        3. composite index:
+            EXAMPLE: select * from table where lastName == "Patel" and firstName == "Neel"
+
+            - here you have to create composite key 
+                here it optimise and create index for combined firstName and lastName field 
+                however if you try to search only first name here, then you have to create different index only for that 
+
+            - here order matter 
+                django example: Customer.objects.filter(address__name__favoriteColor)
+                sql/mysql example: select * from table where address == "something" and name == "something" and favoriteColor == "something"
+
+                so you have to create composite key in that order
+
+    downsides:
+        - it takes more time to create, update, insert, delete 
+        - so if you are not going to search about a column, do not make index of that
+
+
