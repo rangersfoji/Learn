@@ -1,0 +1,42 @@
+ENGLISH :
+
+upper-intermediate english:business
+upper-intermediate english:modern life
+upper-intermediate english:globalization
+upper-intermediate english:technology today
+----------------------------------------
+COMPUTER SCIENCE : 
+
+
+basics of computing and programming
+
+maths essentials
+
+computer hardware and operating system
+
+CS50's introduction to computer science
+
+introduction to networking
+
+algorithms
+
+foundations of data structures
+
+software construction:object-oriented design
+
+object oriented programming in java
+
+advanced software construction in java
+
+introduction to java programming:starting to
+				 code in java
+
+introduction to java programming:writing good
+				code
+
+introduction to java programming:fandamental
+	data structures and  alogorithms
+
+applied scrum for agile project management
+
+mobile app development with readct native

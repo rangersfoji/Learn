@@ -1,0 +1,43 @@
+2 hour : english 
+			(1.upper-intermediate english:business
+			 2.upper-intermediate english:modern life
+			 3.upper-intermediate english:globalization
+			 4.upper-intermediate english:technology today)
+2 hour : 
+2 hour : maths essentials
+2 hour : CS50's introduction to computer science
+
+------------------------------------------------
+queue courses:
+
+	- software construction:object-oriented design
+	- object oriented programming in java
+
+	along with following courses :
+
+	- introduction to networking
+	- algorithms
+	- foundations of data structures
+
+	--------------------------------------
+
+	-introduction to java programming:starting to
+				code in java
+
+	- introduction to java programming:writing good
+				code
+
+	- introduction to java programming:fandamental
+				data structures and  alogorithms
+
+	----------------------------------------
+
+	- advanced software construction in java
+
+	- applied scrum for agile project management
+
+	----------------------------------------
+
+	- mobile app development with readct native (or coursera and skill 		
+		share android app development courses)
+
